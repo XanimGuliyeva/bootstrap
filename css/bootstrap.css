@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    z-index: 1090;
+}
+.header .header-left{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.header-left h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    color:yellow;
+    font-size: 28px;
+}
+.header .header-right{
+    float: right;
+    width: 70%;
+    padding-right: 20px;
+}
+.header-right ul{
+    float: right;
+}
+.header-right ul li{
+    list-style: none;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+.background{
+    padding: 15rem 0rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+}
+.background h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+.background p{
+    color: white;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    }
+.background button{
+    background-color: #FEC810;
+    color: white;
+    padding:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    padding: 10rem 10rem;
+}
+.icon-text{
+    margin: 50px 0px;
+}
+.icon-text h1{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.icon-text p{
+    font-size: 20px;
+    color: #6c7574;
+    text-align: center;
+    padding: 20px 0px;
+}
+.icons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.icons .box{
+    float: left;
+    width: 33%;
+}
+.icons .box i{
+    font-size: 50px;
+    background-color:#FEC810;
+    border-radius: 50%;
+    padding: 50px 50px;
+    margin-bottom: 20px;
+}
+.icons .box .acar{
+    font-size: 50px;
+    background-color:#FEC810;
+    border-radius: 50%;
+    padding: 50px 60px;
+    margin-bottom: 20px;
+}
+.box p{
+    padding: 0px 60px;
+}
+.clear{
+    clear: both;
+}
+.portfolio{
+    background-color:#f8f9fa;
+    background-position: center;
+    background-size: cover;
+    padding:2rem 0rem 50rem 0rem;
+    margin-top: 30px;
+}
+.portfolio-text h1{
+    text-align: center;
+    color: #212529;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio-text p{
+    text-align: center;
+    color: #6c7574;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 0px;
+}
+.portfolio-photo{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.portfolio-photo .boxs{
+    float: left;
+    width: 32%;
+    position: relative;
+    margin: 60px 5px 10px 5px;
+}
+.boxs img{
+    width: 100%;
+}
+.boxs .boxs-text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1090;
+}
+.boxs .boxs-text h1{
+    color: #252421;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding-top: 10px;
+}
+.boxs .boxs-text p{
+    color: #6c7574;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.boxs .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: #FEC810;
+    transition: .7s;
+}
+.boxs:hover .overlay{
+    opacity: 0.9;
+}
+.boxs .plus h1{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    border: white;
+    opacity: 0;
+    font-weight: 900;
+}
+.boxs:hover .plus h1{
+    opacity: 1;
+}
+#about{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    padding:10rem 0rem;
+}
+.about-text h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-text p{
+    text-align: center;
+    font-size: 16px;
+    color: #6c7574;
+}
+.about-photo1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+.about-photo1 .photo1-text{
+    text-align: right;
+    width:30%;
+    padding: 30px 30px;
+}
+.about-photo1 .image1{
+    width: 50%;
+}
+.image1 img{
+    border-radius: 50%;
+}
+.about-photo2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+.about-photo2 .photo2-text{
+    text-align: left;
+    width:30%;
+    padding: 30px 30px;
+}
+.about-photo2 .image1{
+    width: 50%;
+}
+.image2 img{
+    border-radius: 50%;
+}
+#team{
+    padding: 4rem 0rem;
+    background-color: #f8f9fa;
+    background-position: center;
+    background-size: cover;
+}
+#team .team-text{
+    text-align: center;
+    padding: 30px;
+}
+.team-text h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.team-text p{
+    font-size: 26px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    color: #6c7574;
+}
+.team-boxs{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.team-boxs .box{
+    width:20%;
+}
+.box img{
+    width: 100%;
+    border-radius: 50%;
+    border: 7px solid rgba(0,0,0,.1)
+}
+.box h4{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: none
+}
+.box p{
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0px;
+   color:#6c757d;
+}
+.box i{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.box .face{
+    font-size: 20px;
+    padding: 20px 23px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+.box i:hover{
+    background-color: #ffc107;
+}
+#team .text2{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #6c757d;
+}
+.marka{
+    padding: 2rem 0rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.marka img{
+    padding: 5px 50px;
+}
+
+.map{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png);
+    padding: 10rem 0rem;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+}
+.map h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.map p{
+    color: #6c757d;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.map .contact{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.input{
+    width:50%;
+    text-align: center;
+}
+.input ::placeholder{
+    font-size: 24px;
+}
+.input input{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 45px;
+    color: #6c757d;
+}
+.contact .text{
+    text-align: center;
+    width: 50%;
+}
+.map button{
+    text-align: center;
+    background-color: #ffc107;
+    color: white;
+    font-size: 24px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+}
+
+.end{
+    padding: 4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.end .copy{
+    width: 20%;
+    text-align: center;
+}
+.end .icons{
+    text-align: center;
+    width: 60%;
+}
+.end .icons i{
+    font-size: 16px;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0px 10px;
+}
+.end .icons .facebook{
+    font-size: 16px;
+    padding: 20px 23px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0px 10px;
+
+}
+.end .use{
+    text-align: center;
+    width: 20%;
+}
+.end .icons i:hover{
+    background-color: #FEC810;
+}
